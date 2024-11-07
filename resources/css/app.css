@@ -1,0 +1,26 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import "filepond/dist/filepond.min.css";
+
+
+.bg-red-50 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 139 139 / var(--tw-bg-opacity));
+}
+
+.bg-blue-50 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(134 181 253 / var(--tw-bg-opacity));
+}
+
+.bg-green-50 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(151 253 134 / var(--tw-bg-opacity));
+}
+
+.custom-select {
+    font-family: 'Your Custom Font', sans-serif;
+    /* تأكد من إضافة الخط في ملف CSS */
+}
